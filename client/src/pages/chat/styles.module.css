@@ -1,0 +1,65 @@
+.chatContainer {
+  background: linear-gradient(45deg, #fff3cd, transparent);
+}
+
+/* Room and users component */
+.roomAndUsersColumn {
+  border-right: 1px solid #dfdfdf;
+}
+.roomTitle {
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #fff;
+}
+.usersTitle {
+  font-size: 1.2rem;
+  color: #fff;
+}
+.usersList {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 60px;
+  color: rgb(153, 217, 234);
+}
+.usersList li {
+  margin-bottom: 12px;
+}
+
+/* Messages */
+.messagesColumn {
+  height: 85vh;
+  overflow: auto;
+  padding: 2vh;
+}
+.message {
+  background: rgb(20 27 38 / 52%);
+  border-radius: 6px;
+  padding: 2vh;
+  margin-bottom: 2vh;
+}
+
+.message > * {
+  margin-right: 2vw;
+}
+
+.msgMeta {
+  color: rgb(153, 217, 234);
+  font-size: 0.75rem;
+}
+.msgText {
+  color: #fff;
+}
+
+/* Message input and button */
+.sendMessageContainer {
+  padding: 4vh;
+  display: flex;
+  justify-content: center;
+}
+.messageInput {
+  padding: 2vh;
+  border-radius: 6px;
+  border: 1px solid rgb(153, 217, 234);
+  margin: 0 2vh 0 2vh;
+}
